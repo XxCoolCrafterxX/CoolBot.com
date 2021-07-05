@@ -1,0 +1,38 @@
+*{
+    margin: none;
+    padding: none;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 33%;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+
+.navbar{
+    display: flex;
+}
+
+.nav-list{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    height: 133px;
+}
+
+.nav-list li{
+    list-style: none;
+}
+
+.nav-list li a{
+    padding: 56px 135px;
+    color: white;
+}
