@@ -77,7 +77,7 @@
 }
 
 .firstSection{
-    height: 100vh;
+    height: auto;
 }
 
 .firstHalf{
@@ -126,6 +126,19 @@
     }
     .navbar{
         flex-direction: column;
+        height: 190px;
+        transition: all 0.5s ease-in;
+    }
+
+    .secondHalf img{
+        height: 300px;
+        width: 300px;
+        margin-bottom: 10px;
+    }
+
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
     }
 
     .nav-list li{
@@ -148,11 +161,3 @@
     }
 }
 
-@media only screen and (max-width: 850px){
-    .secondHalf img{
-        opacity: 0;
-    }
-    .firstSection{
-        align-items: center;
-    }
-}
