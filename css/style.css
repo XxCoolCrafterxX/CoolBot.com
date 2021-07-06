@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
 *{
     margin: none;
     padding: none;
@@ -38,12 +42,16 @@
 }
 
 .nav-list li a{
+    text-decoration: none;
     padding: 56px 135px;
     color: white;
+    font-family: 'Rubik', sans-serif;
 }
+
 
 .nav-list li a:hover{
     color: grey;
+    text-decoration: undeerline;
 }
 
 .backround{
@@ -67,7 +75,7 @@
 }
 
 .firstSection{
-    height: 80vh;
+    height: 100vh;
 }
 
 .firstHalf{
@@ -78,7 +86,18 @@
 }
 
 .secondHalf img{
-    width: 80%;
+    padding: 10px;
+    width: 125%;
     display: block;
     margin: auto;
+}
+
+.text-big{
+    font-size: 56px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-small{
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
 }
