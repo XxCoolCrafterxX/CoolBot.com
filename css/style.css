@@ -27,6 +27,7 @@
     position: sticky;
     top: 0;
     cursor: pointer;
+    background-color: black;
 }
 
 .nav-list{
@@ -39,19 +40,20 @@
 
 .nav-list li{
     list-style: none;
+
 }
 
 .nav-list li a{
     text-decoration: none;
     padding: 56px 135px;
     color: white;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 
 .nav-list li a:hover{
     color: grey;
-    text-decoration: undeerline;
+    text-decoration: underline;
 }
 
 .backround{
@@ -100,4 +102,57 @@
 .text-small{
     font-size: 20px;
     font-family: 'Rubik', sans-serif;
+}
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+
+@media only screen and (max-width: 1140px){
+    .nav-list{
+        flex-direction: column;
+        height: 160px;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+
+    .nav-list li{
+        padding-top: 17px;
+        padding-bottom: 2px;
+    }
+
+    .firstSection{
+        padding-top: 80px;
+    }
+
+    .burger{
+        display: block;
+    }
+    .h-nav{
+        height: 72px;
+    }
+    .v-class{
+        opacity: 0;
+    }
+}
+
+@media only screen and (max-width: 850px){
+    .secondHalf img{
+        opacity: 0;
+    }
+    .firstSection{
+        align-items: center;
+    }
 }
